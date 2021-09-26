@@ -1,0 +1,75 @@
+* {box-sizing: border-box;}
+
+body{
+  /* height: 100vh; */
+  /* background: #0062E6 !important; */
+  background-color:#34495E !important;
+  scroll-behavior: smooth; 
+
+}
+html{
+  scroll-behavior: smooth;
+}
+.nav-link{
+ font-size: 20px;
+ font-weight: 400;
+ color:white;
+}
+
+h3{
+    color:white;
+}
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.head{
+  color:#0275d8;
+}
+#Subs{
+  height:500px; 
+  
+}
+#home{
+  padding:10px;
+  border-radius:40px;
+}
+
+#parallex{
+  background-image:url("https://media.gqindia.com/wp-content/uploads/2019/11/top-image19.jpg");
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-size:100%;
+  height:500px;
+}
+
+#spanrupee{
+  font-size: larger;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+ 
+  h3{
+    color:white;
+  }
+  
+  .carousel-item img{
+    width: 100px;
+    height:200px;
+  }
+
+  .carousel-caption{
+    color:white;
+  }
+
+  #Subs{
+   background: none;
+  }
+  .form-inline{
+    margin-left: 4rem;
+    margin-top: 4px;
+  }
+}
